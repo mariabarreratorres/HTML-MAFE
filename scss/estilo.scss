@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+$color-bg:white;
+$color-bg-hover: beige;
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  /* background-color: rgba(50, 205, 50, 0.2);
+  outline: 1px solid limegreen; */
+}
+@import "header";
+@import "main-container";
+@import "gallery-container";
+
+
+.logo {
+  width: 130px;
+}
+
+.masthead{
+  width:100%;
+  height: auto;
+  margin: 1rem;
+  text-align: center;
+  }
+
+  .banner {
+    width: 100%;
+    height: 640px;
+    margin: 1rem;
+    text-align: center; 
+    justify-content: center;
+}
+  
+.banner1 {
+    width: 100%;
+    height: auto;
+    margin: 1rem;
+    text-align: center; 
+}
+
+.banner2 {
+    width: 100%;
+    height: auto;
+    margin: 1rem;
+    text-align: center; 
+}
+
+.button1 {
+  padding: 8px 16px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #18a0fb;
+  color: #18a0fb;
+  display:flex;
+  align-self: center;
+  cursor: pointer;
+  
+
+.button2{
+  border-radius: 5px;
+  padding-left: 60px;
+  background-color: #18a0fb;
+  color: aquamarine;
+  text-align: center;
+  display:inline-block;
+  justify-content:center;
+  cursor:pointer;
+  position: absolute !important;
+  top: 1%;
+}
+
+.bg-grey {
+  padding: 1px 0;
+  background-color: WhiteSmoke;
+  align-self: center;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+main button {
+  margin-left: 0;
+}
+.card {
+  width: 50%;}
+
+@media only screen and (max-width: 540px){
+.card {
+  width: 100%;}
+}
+
+
+.testimony-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.testimony-container img {
+  width: 50%;
+}
+
+.testimony {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.gallery-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.gallery-images img {
+  width: 20%;
+}
+
+.rounded-img img {
+  border-radius: 50%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer .social i {
+  font-size: 25px;
+  margin: 16px;
+  color: #18a0fb;
+}
+.main-container small {
+  display: block;
+  text-align: center;
+}
+.video{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: relative;
+width: 710px;
+height: 439px;}
+
+.ancho{
+  width:400px;
+}
+}
+.imagen3 :hover{
+  transform: traslate(30px, 30px);}

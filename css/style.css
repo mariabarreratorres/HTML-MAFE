@@ -28,12 +28,11 @@ header {
         header .nav .nav__menu .nav__li:hover {
           background-color: beige; }
         header .nav .nav__menu .nav__li a {
-          color: black; }
+          color: black;
+          text-decoration: none; }
 
 .main-container {
-  background-color: white;
-  margin: 80px;
-  padding: 10px; }
+  margin: 80px; }
   .main-container .h1 {
     text-align: center;
     color: black;
@@ -70,99 +69,102 @@ header {
 
 .banner {
   width: 100%;
-  height: 640px;
+  text-align: center; }
+
+.btn-container {
+  width: 100%;
   margin: 1rem;
   text-align: center;
   justify-content: center; }
-
-.banner1 {
-  width: 100%;
-  height: auto;
-  margin: 1rem;
-  text-align: center; }
-
-.banner2 {
-  width: 100%;
-  height: auto;
-  margin: 1rem;
-  text-align: center; }
 
 .button1 {
   padding: 8px 16px;
   margin: 10px;
   border-radius: 5px;
   background-color: white;
-  border: 1px solid #18a0fb;
-  color: #18a0fb;
   display: flex;
   align-self: center;
   cursor: pointer; }
-  .button1 .button2 {
-    border-radius: 5px;
-    padding-left: 60px;
-    background-color: #18a0fb;
-    color: aquamarine;
-    text-align: center;
-    display: inline-block;
-    justify-content: center;
-    cursor: pointer;
-    position: absolute !important;
-    top: 1%; }
-  .button1 .bg-grey {
-    padding: 1px 0;
-    background-color: WhiteSmoke;
-    align-self: center; }
-  .button1 .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; }
-  .button1 main button {
-    margin-left: 0; }
-  .button1 .card {
-    width: 50%; }
-  @media only screen and (max-width: 540px) {
-    .button1 .card {
-      width: 100%; } }
-  .button1 .testimony-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 40px; }
-  .button1 .testimony-container img {
-    width: 50%; }
-  .button1 .testimony {
-    width: 50%;
-    display: flex;
-    flex-direction: column; }
-  .button1 .gallery-images {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 50px; }
-  .button1 .gallery-images img {
-    width: 20%; }
-  .button1 .rounded-img img {
-    border-radius: 50%; }
-  .button1 footer {
-    display: flex;
-    justify-content: center; }
-  .button1 footer .social i {
-    font-size: 25px;
-    margin: 16px;
-    color: #18a0fb; }
-  .button1 .main-container small {
-    display: block;
-    text-align: center; }
-  .button1 .video {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    position: relative;
-    width: 710px;
-    height: 439px; }
-  .button1 .ancho {
-    width: 400px; }
+
+.button2 {
+  border-radius: 5px;
+  padding: 8px 16px;
+  margin: 10px;
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+  justify-content: center;
+  cursor: pointer;
+  top: 1%; }
+
+.bg-grey {
+  padding: 1px 0;
+  margin: 10px;
+  background-color: WhiteSmoke;
+  align-self: center; }
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+main button {
+  margin-left: 0; }
+
+.card {
+  width: 100%; }
+
+@media only screen and (max-width: 780px) {
+  .card {
+    width: 100%; }
+  .testimony {
+    width: 100%;
+    font-size: 12px; }
+  .testimony-container {
+    width: 100%;
+    font-size: 12px; } }
+
+.testimony-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px; }
+
+.testimony-container img {
+  width: 50%; }
+
+.testimony {
+  width: 50%;
+  display: flex;
+  flex-direction: column; }
+
+.gallery-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px; }
+
+.gallery-images img {
+  width: 20%; }
+
+.rounded-img img {
+  border-radius: 50%; }
+
+footer {
+  display: flex;
+  justify-content: center; }
+
+footer .social i {
+  font-size: 25px;
+  margin: 16px;
+  color: #18a0fb; }
+
+.main-container small {
+  display: block;
+  text-align: center; }
+
+.ancho {
+  width: 400px; }
 
 .imagen3 :hover {
   transform: traslate(30px, 30px); }
